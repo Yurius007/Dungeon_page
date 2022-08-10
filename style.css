@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 1900px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    height: 70px;
+}
+.Home, .About, .Map {
+    font-family: 'Minecraft', sans-serif;
+    height: 100%;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+.top {
+    height: 1000px
+}
+.img_blur {
+    background-image: url(building.png);
+    height: 1000px;
+    width: 1901px;
+    position: absolute;
+    filter: blur(2px) brightness(75%);
+    z-index: 1;
+    background-repeat: repeat;
+    background-size: auto;
+}
+.Title {
+    font-family: 'Minecraft', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 180px;
+
+}
+.subtitle {
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 40px;
+    width: 700px;
+
+}
+.Title_box {
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    height: 1000px;
+}
