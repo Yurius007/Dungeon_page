@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Minecraft';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Minecraft'), url('https://fonts.cdnfonts.com/s/36662/MinecraftTen-VGORe.woff') format('woff');
+}
 body {
     margin: 0px;
     padding: 0px;
